@@ -1,15 +1,16 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import { GetServerSideProps } from "next";
-import Link from 'next/link';
-
+import styles from "../styles/santaCruz.module.scss";
 
 export default function santaCruz() {
     return (
         <>
         
-        <h1>First Post Santa-Cruz</h1>;
-        
+        <iframe
+        className={styles.formMautic}
+        src="//federicoe.tk/form/17"
+        width="100%"
+        height="1100px"
+        ></iframe>
+
         </>
         );
   }
