@@ -89,3 +89,9 @@
     flex-direction: column;
   }
 }
+
+.link {
+  font-size: 2.5rem;
+  font-family: roboto;
+  font-weight: bold;
+}

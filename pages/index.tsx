@@ -17,10 +17,10 @@ export default function Home() {
           Firmarpetitorio.com.ar
         </h1>
 
-        <p><Link href="/santa-cruz.tsx">Absolución Santa Cruz</Link></p>
+        <p><Link href="/santa-cruz" className={styles.link}>Absolución Santa Cruz</Link></p>
 
-       
-      <style jsx>{`
+
+        <style jsx>{`
         main {
           padding: 5rem 0;
           flex: 1;
