@@ -7,6 +7,17 @@
   align-items: center;
 }
 
+.main {
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 22%;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
