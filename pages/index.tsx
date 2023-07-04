@@ -17,7 +17,7 @@ export default function Home() {
           Firmarpetitorio.com.ar
         </h1>
 
-        <p><Link href="/santa-cruz.tsx">Absolución Santa Cruz</Link></p>
+        <p><Link href="/santa-cruz">Absolución Santa Cruz</Link></p>
 
        
       <style jsx>{`
