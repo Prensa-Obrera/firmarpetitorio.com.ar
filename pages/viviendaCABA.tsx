@@ -1,10 +1,22 @@
+import Head from "next/head";
 import styles from "../styles/viviendaCABA.module.scss";
 
 
 export default function ViviendaCABA() {
     return (
         <>
+        <Head>
+            <title>La vivienda es un derecho.</title>
+            <meta name="description" content="Sumá tu firma" />
+
+            <meta property="og:title" content="La vivienda es un derecho" />
+            <meta property="og:description" content="Sumá tu firma" />
+            <meta property="og:image" content="https://po.org.ar/wp-content/uploads/2023/09/lapiz.png" />
+            <meta property="og:url" content="https://firmarpetitorio.com.ar/viviendaCABA" />
+        </Head>
         <div className={styles.container}>
+            <h1 className={styles.titulono}>La vivienda es un derecho</h1> 
+
             <h1 className={styles.titulo}>Los abajo firmantes consideramos que la VIVIENDA ES UN DERECHO, motivo por el cual reclamamos al gobierno y a la legislatura de la Ciudad de Buenos Aires:</h1> 
             
             <p className={styles.texto}>Creación de un Fondo para el Derecho a la Vivienda constituido con  impuestos a la vivienda ociosa, impuesto a los negocios constituidos sobre la base de beneficios del Estado y a las transacciones financieras.</p>
