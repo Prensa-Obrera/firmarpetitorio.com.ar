@@ -1,4 +1,10 @@
 import styles from "../styles/viviendaCABA.module.scss";
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'La vivienda es un derecho',
+  description: 'Sumá tu firma',
+}
 
 export default function ViviendaCABA() {
     return (
