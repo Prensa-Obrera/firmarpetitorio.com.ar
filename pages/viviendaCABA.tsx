@@ -4,24 +4,13 @@ export default function ViviendaCABA() {
     return (
         <>
         <div className={styles.container}>
-            <h1 className={styles.titulo}>Los abajo firmantes apoyamos las siguientes propuestas impulsadas por el Frente de Izquierda-Unidad en la ciudad para defender el derecho a la vivienda:</h1> 
-        
-            <ul className={styles.listado}>
-                <li><b>1.</b> Regulación del valor de los alquileres: una vivienda adecuada para una familia tipo no
-                puede superar el valor de un salario mínimo, vital y móvil.</li>
-                <li><b>2.</b> Impuesto progresivo a la vivienda ociosa: hoy se calcula que hay alrededor de 200.000
-                viviendas que podrían volcarse al alquiler.</li>
-                <li><b>3.</b> Regulación del Airbnb prohibiendo alquileres temporarios de menos de un mes en viviendas vacías.</li>
-                <li><b>4.</b> Créditos hipotecarios actualizados con tope en la evolución del salario para acceder a la
-                vivienda propia.</li>
-                <li><b>5.</b> Anulación del Código Urbanístico y de Edificación</li>
-                <li><b>6.</b> Anulación de la privatización de más de 500 hectáreas de tierras para la especulación inmobiliaria.</li>
-                <li><b>7.</b> Construcción de 100.000 viviendas populares en las tierras recuperadas.</li>
-                <li><b>8.</b> Urbanización de todas las villas</li>
-                <li><b>9.</b> Recuperación de la Costanera Norte y Sur con parques verdes públicos. No a las
-                megatorres.</li>
-                <li><b>10.</b> Aumento general de salarios y jubilaciones. Salario mínimo igual a la canasta familiar.</li>
-            </ul>
+            <h1 className={styles.titulo}>Los abajo firmantes consideramos que la VIVIENDA ES UN DERECHO, motivo por el cual reclamamos al gobierno y a la legislatura de la Ciudad de Buenos Aires:</h1> 
+            
+            <p className={styles.texto}>Creación de un Fondo para el Derecho a la Vivienda constituido con  impuestos a la vivienda ociosa, impuesto a los negocios constituidos sobre la base de beneficios del Estado y a las transacciones financieras.</p>
+            <p className={styles.texto}>Derogación del Código Urbanístico que habilitó la construcción desenfrenada de edificios para reserva del valor o para alquileres temporarios afectando la impronta de los barrios porteños, elevando el valor de la tierra y provocando una retracción de la colocación de la vivienda en alquiler.</p> 
+            <p className={styles.texto}>Creación de un plan de créditos hipotecarios subsidiados para el acceso a la vivienda de las y los trabajadores. Creación de un banco de tierras de la Ciudad para la puesta en pie de un plan de viviendas. </p>
+            <p className={styles.texto}>Regulación del mercado de alquileres temporarios, tope de 90 días al año para alquilar, registro de los inmuebles, prohibición de publicación de viviendas no registradas y prohibición para que se alquilen viviendas completas.</p> 
+            <p className={styles.texto}> Ampliación del subsidio habitacional para las familias con ingresos por debajo de la línea de pobreza.</p>
         </div>
         <iframe
         className={styles.formMautic}

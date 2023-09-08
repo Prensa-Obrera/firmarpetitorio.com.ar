@@ -1,12 +1,15 @@
 .container{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    max-width:900px;
+    margin:auto;
 }
-.listado{
-    list-style-type: none;
-    line-height: 1.5;
+.titulo{
+    font-size: 25px;
+}
+.texto{
+    line-height: 1.2;
     text-align: center;
-    padding:0;
 }
 
 .formMautic{
@@ -20,8 +23,8 @@
     .titulo{
         font-size:17px;
     }
-    .listado{
-        font-size:15px;
+    .texto{
+        font-size:14px;
     }
   }
   
