@@ -13,7 +13,6 @@ export default function Home() {
           <h1 className={styles.title}>
             Firmarpetitorio.com.ar
           </h1>
-          <p><Link href="/santa-cruz" className={styles.link}>Absolución Santa Cruz</Link></p>
           <p><Link href="/viviendaCABA" className={styles.link}>Vivienda CABA</Link></p>
         </main>
       </>
