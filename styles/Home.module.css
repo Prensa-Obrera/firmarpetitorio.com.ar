@@ -14,7 +14,6 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  padding: 22%;
 }
 
 .title a {
@@ -114,4 +113,13 @@
   font-size: 2.5rem;
   font-family: roboto;
   font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 22px;
+  }
+  .texto {
+    font-size: 16px;
+  }
 }
