@@ -4,13 +4,26 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Firmarpetitorio.com.ar</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <>
+        <Head>
+          <title>Firmarpetitorio</title>
+          <link rel="icon" href="/favicon.ico" />
+          <meta name="title" content="La vivienda es un derecho" />
+          <meta name="description" content="Sumá tu firma" />
 
-      
+
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://firmarpetitorio.com.ar/viviendaCABA" />
+          <meta property="og:title" content="La vivienda es un derecho" />
+          <meta property="og:description" content="Sumá tu firma" />
+          {/* <meta property="og:image" content="https://metatags.io/images/meta-tags.png" /> */}
+
+
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://firmarpetitorio.com.ar/viviendaCABA" />
+          <meta property="twitter:title" content="La vivienda es un derecho" />
+          <meta property="twitter:description" content="Sumá tu firma" />
+          {/* <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" /> */}
         
 
         <h1 className={styles.title}>

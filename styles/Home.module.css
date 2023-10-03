@@ -7,6 +7,17 @@
   align-items: center;
 }
 
+.main {
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 22%;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -83,9 +94,20 @@
   height: 1em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .grid {
     width: 100%;
     flex-direction: column;
+    display: flex;
+    padding: 25%;
   }
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+.link {
+  font-size: 2.5rem;
+  font-family: roboto;
+  font-weight: bold;
 }
