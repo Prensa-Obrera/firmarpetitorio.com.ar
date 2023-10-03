@@ -8,14 +8,13 @@
 }
 
 .main {
-  
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    padding: 22%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 22%;
 }
 
 .title a {
@@ -43,7 +42,6 @@
 .description {
   text-align: center;
 }
-
 
 .description {
   line-height: 1.5;
@@ -92,6 +90,12 @@
 
 .logo {
   height: 1em;
+}
+
+.texto {
+  font-size: 25px;
+  padding: 0;
+  margin: 5px;
 }
 
 @media (max-width: 500px) {

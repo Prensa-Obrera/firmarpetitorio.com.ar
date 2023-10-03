@@ -50,10 +50,12 @@ export default function AbsolucionSantaCruz() {
       </div>
       <iframe
         className={styles.formMautic}
-        src="//federicoe.tk/form/20"
+        src="//federicoe.ar/form/22"
         width="100%"
-        height="1100px"
-      ></iframe>
+        height="400px"
+      >
+        <p>Your browser does not support iframes.</p>
+      </iframe>
     </>
   );
 }

@@ -29,14 +29,14 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Firmarpetitorio.com.ar</h1>
 
-        <p>
-          <Link href="/absolucion-santa-cruz">Absolución Santa Cruz</Link>
+        <p className={styles.texto}>
+          <Link href="/absolucion-santa-cruz">- Absolución Santa Cruz -</Link>
         </p>
-        <p>
-          <Link href="/viviendaCABA">Vivienda CABA</Link>
+        <p className={styles.texto}>
+          <Link href="/viviendaCABA">- Vivienda CABA -</Link>
         </p>
-        <p>
-          <Link href="/educacion-sexual-integral">ESI</Link>
+        <p className={styles.texto}>
+          <Link href="/educacion-sexual-integral">- ESI -</Link>
         </p>
       </main>
 
