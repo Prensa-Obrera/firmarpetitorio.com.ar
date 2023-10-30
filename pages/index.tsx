@@ -38,6 +38,11 @@ export default function Home() {
         <p className={styles.texto}>
           <Link href="/educacion-sexual-integral">- ESI -</Link>
         </p>
+        <p className={styles.texto}>
+          <Link href="/absolucion-de-cesar-arakaki-y-daniel-ruiz">
+            - Absolución de Cesar Arakaki y Daniel Ruiz -
+          </Link>
+        </p>
       </main>
 
       <footer className={styles.footer}>
