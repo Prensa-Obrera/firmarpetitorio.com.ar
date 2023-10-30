@@ -19,7 +19,7 @@ export default function AbsolucionArakakiRuiz() {
         />
         <meta
           property="og:url"
-          content="https://firmarpetitorio.com.ar/absolucion-santa-cruz"
+          content="https://firmarpetitorio.com.ar/absolucion-de-cesar-arakaki-y-daniel-ruiz"
         />
       </Head>
       <div className={styles.container}>
